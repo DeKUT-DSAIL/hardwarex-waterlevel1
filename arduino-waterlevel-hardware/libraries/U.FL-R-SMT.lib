@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# U.FL-R-SMT
+#
+DEF U.FL-R-SMT U 0 40 N N 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "U.FL-R-SMT" 0 0 50 H I L BNN
+F2 "U.FL-R-SMT" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+C 0 0 14 0 0 10 N
+C 0 0 95 0 0 10 N
+X ~ P$1 200 0 200 L 40 40 0 0 P 
+X ~ P$2 -200 -100 200 R 40 40 0 0 W 
+X ~ P$3 200 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

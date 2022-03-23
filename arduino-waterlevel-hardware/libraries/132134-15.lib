@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 132134-15
+#
+DEF 132134-15 J 0 40 Y Y 1 L N
+F0 "J" 88 -125 50 H V L BNN
+F1 "132134-15" 88 -200 50 H V L BNN
+F2 "AMPHENOL_132134-15" 0 0 50 H I L BNN
+F3 "RF Connector SMA Straight PCB Jack Surface Mount 50 Ohm" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "132134-15" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Amphenol RF" 0 0 50 H I L BNN
+DRAW
+C 0 0 100 0 0 10 N
+C 0 0 28 0 0 10 N
+P 2 0 0 10 0 -100 0 -200 N
+P 2 0 0 10 -50 -200 50 -200 N
+P 2 0 0 10 -25 -225 25 -225 N
+P 2 0 0 10 -13 -250 13 -250 N
+X SIG 1 200 0 200 L 40 40 0 0 P 
+X GND P1 0 -450 200 U 40 40 0 0 P 
+X GND P2 0 -450 200 U 40 40 0 0 P 
+X GND P3 0 -450 200 U 40 40 0 0 P 
+X GND P4 0 -450 200 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

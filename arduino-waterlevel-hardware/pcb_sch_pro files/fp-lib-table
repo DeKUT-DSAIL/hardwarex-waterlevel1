@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name nano)(type KiCad)(uri "$(KIPRJMOD)/nano.pretty")(options "")(descr ""))
+  (lib (name nano2)(type KiCad)(uri "$(KIPRJMOD)/nano2.pretty")(options "")(descr ""))
+  (lib (name conn)(type KiCad)(uri D:/conn)(options "")(descr ""))
+  (lib (name MT3608)(type KiCad)(uri D:/DOCUMENTS/KiCad/stream/MT3608.pretty)(options "")(descr ""))
+  (lib (name brake1)(type KiCad)(uri D:/files/schematic/brake/brake1.pretty)(options "")(descr ""))
+  (lib (name brake2)(type KiCad)(uri D:/files/schematic/brake/brake2.pretty)(options "")(descr ""))
+  (lib (name rep)(type KiCad)(uri D:/uno/rep)(options "")(descr ""))
+  (lib (name SHIFT)(type KiCad)(uri "$(KIPRJMOD)/SHIFT.pretty")(options "")(descr ""))
+)

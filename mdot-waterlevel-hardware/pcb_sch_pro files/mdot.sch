@@ -1,0 +1,343 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:282815-2
+LIBS:282836-4
+LIBS:adj-cache
+LIBS:ewaso1-cache
+LIBS:nano
+LIBS:nano-cache
+LIBS:nano-rescue
+LIBS:shift
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 282815-2 J3
+U 1 1 620B55DE
+P 4475 2110
+F 0 "J3" V 4475 2330 118 0000 L BNB
+F 1 "Battery_Port" V 4490 2545 118 0000 L BNB
+F 2 "conn:TE_282815-2" H 4475 2110 50  0001 L BNN
+F 3 "" H 4475 2110 50  0001 L BNN
+F 4 "2" H 4475 2110 50  0001 L BNN "Number_of_Positions"
+F 5 "5.08 mm[.2 in]" H 4475 2110 50  0001 L BNN "Centerline_Pitch"
+F 6 "282815-2" H 4475 2110 50  0001 L BNN "Comment"
+	1    4475 2110
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 282836-4 J4
+U 1 1 620B5791
+P 8300 4485
+F 0 "J4" H 8255 4095 118 0000 L BNB
+F 1 "HC-SR04_SOCKET" H 7460 4840 118 0000 L BNB
+F 2 "conn:TE_282836-4" H 8300 4485 50  0001 L BNN
+F 3 "" H 8300 4485 50  0001 L BNN
+F 4 "282836-4" H 8300 4485 50  0001 L BNN "Comment"
+	1    8300 4485
+	-1   0    0    1   
+$EndComp
+$Comp
+L 282815-2 J2
+U 1 1 620B595A
+P 3995 3435
+F 0 "J2" H 4235 3470 118 0000 L BNB
+F 1 "Toggle_Switch" H 3395 3145 118 0000 L BNB
+F 2 "conn:TE_282815-2" H 3995 3435 50  0001 L BNN
+F 3 "" H 3995 3435 50  0001 L BNN
+F 4 "2" H 3995 3435 50  0001 L BNN "Number_of_Positions"
+F 5 "5.08 mm[.2 in]" H 3995 3435 50  0001 L BNN "Centerline_Pitch"
+F 6 "282815-2" H 3995 3435 50  0001 L BNN "Comment"
+	1    3995 3435
+	-1   0    0    1   
+$EndComp
+$Comp
+L 282815-2 J1
+U 1 1 620B5A29
+P 3985 4890
+F 0 "J1" V 4045 5095 118 0000 L BNB
+F 1 "Solar_Panel_Port" V 4070 3265 118 0000 L BNB
+F 2 "conn:TE_282815-2" H 3985 4890 50  0001 L BNN
+F 3 "" H 3985 4890 50  0001 L BNN
+F 4 "2" H 3985 4890 50  0001 L BNN "Number_of_Positions"
+F 5 "5.08 mm[.2 in]" H 3985 4890 50  0001 L BNN "Centerline_Pitch"
+F 6 "282815-2" H 3985 4890 50  0001 L BNN "Comment"
+	1    3985 4890
+	0    1    1    0   
+$EndComp
+$Comp
+L MT_DOT_TRIAL U2
+U 1 1 620B5C7B
+P 7065 3035
+F 0 "U2" H 7055 3035 118 0000 C CNB
+F 1 "MULTITECH-mDot" H 7045 3825 118 0000 C CNB
+F 2 "MDOT_TRIAL_BAT_CHARGER:MDOT_TRIAL_BAT_CHARGER" H 7065 3035 60  0001 C CNN
+F 3 "" H 7065 3035 60  0001 C CNN
+	1    7065 3035
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 620B5DB5
+P 4000 4155
+F 0 "D1" H 4010 4320 118 0000 C CNB
+F 1 "D" H 4000 4055 50  0000 C CNN
+F 2 "Diodes_THT:D_5W_P12.70mm_Horizontal" H 4000 4155 50  0001 C CNN
+F 3 "" H 4000 4155 50  0001 C CNN
+	1    4000 4155
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT3608 U1
+U 1 1 620B602D
+P 5545 3275
+F 0 "U1" V 5595 3285 118 0000 C CNB
+F 1 "MT3608_MODULE -5V" V 6605 3510 94  0000 C CNB
+F 2 "MT3608:MT3608" H 5545 3275 60  0001 C CNN
+F 3 "" H 5545 3275 60  0001 C CNN
+	1    5545 3275
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 620B75E9
+P 4635 2515
+F 0 "#PWR01" H 4635 2265 50  0001 C CNN
+F 1 "GND" H 4635 2365 50  0000 C CNN
+F 2 "" H 4635 2515 50  0001 C CNN
+F 3 "" H 4635 2515 50  0001 C CNN
+	1    4635 2515
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2510 4525 2510
+Wire Wire Line
+	4525 2510 4525 2515
+Wire Wire Line
+	4525 2515 4635 2515
+Wire Wire Line
+	4375 2510 4375 2835
+Wire Wire Line
+	4680 2835 4680 3435
+Wire Wire Line
+	4680 3435 4395 3435
+Wire Wire Line
+	4395 3535 5000 3535
+Wire Wire Line
+	5000 3535 5000 2785
+Wire Wire Line
+	5000 2785 5395 2785
+Wire Wire Line
+	5395 2785 5395 2825
+Wire Wire Line
+	6210 4635 8000 4635
+Wire Wire Line
+	6210 4635 6210 4105
+Wire Wire Line
+	6210 4105 5395 4105
+Wire Wire Line
+	5395 4105 5395 3825
+Wire Wire Line
+	6165 2885 5955 2885
+Wire Wire Line
+	5955 2885 5955 3990
+Wire Wire Line
+	5955 3990 6295 3990
+Wire Wire Line
+	6295 3990 6295 4535
+Wire Wire Line
+	6295 4535 8000 4535
+Wire Wire Line
+	7965 3485 7965 3600
+Wire Wire Line
+	7965 3600 7805 3600
+Wire Wire Line
+	7805 3600 7805 4435
+Wire Wire Line
+	7805 4435 8000 4435
+Text Notes 8170 4740 0    91   ~ 18
+vcc\n
+Text Notes 8165 4605 0    87   ~ 17
+Trig
+Text Notes 8175 4480 0    87   ~ 17
+ECHO
+Text Notes 8165 4350 0    87   ~ 17
+GND
+Wire Wire Line
+	4835 1995 8285 1995
+Wire Wire Line
+	8285 1995 8285 2585
+Wire Wire Line
+	8285 2585 7965 2585
+Wire Wire Line
+	6165 3485 6165 3810
+Wire Wire Line
+	6165 3810 6385 3810
+Wire Wire Line
+	6385 3810 6385 4175
+Wire Wire Line
+	6385 4175 6815 4175
+Wire Wire Line
+	6815 4085 6815 4215
+$Comp
+L GND #PWR02
+U 1 1 620B8814
+P 6905 4215
+F 0 "#PWR02" H 6905 3965 50  0001 C CNN
+F 1 "GND" H 6905 4065 50  0000 C CNN
+F 2 "" H 6905 4215 50  0001 C CNN
+F 3 "" H 6905 4215 50  0001 C CNN
+	1    6905 4215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6815 4215 6905 4215
+Connection ~ 6815 4175
+$Comp
+L GND #PWR03
+U 1 1 620B894A
+P 7950 4100
+F 0 "#PWR03" H 7950 3850 50  0001 C CNN
+F 1 "GND" H 7950 3950 50  0000 C CNN
+F 2 "" H 7950 4100 50  0001 C CNN
+F 3 "" H 7950 4100 50  0001 C CNN
+	1    7950 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4335 7950 4335
+Wire Wire Line
+	7950 4335 7950 4100
+$Comp
+L GND #PWR04
+U 1 1 620B8A4A
+P 5695 3860
+F 0 "#PWR04" H 5695 3610 50  0001 C CNN
+F 1 "GND" H 5695 3710 50  0000 C CNN
+F 2 "" H 5695 3860 50  0001 C CNN
+F 3 "" H 5695 3860 50  0001 C CNN
+	1    5695 3860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5695 3825 5695 3860
+$Comp
+L GND #PWR05
+U 1 1 620B8AF7
+P 5755 2740
+F 0 "#PWR05" H 5755 2490 50  0001 C CNN
+F 1 "GND" H 5755 2590 50  0000 C CNN
+F 2 "" H 5755 2740 50  0001 C CNN
+F 3 "" H 5755 2740 50  0001 C CNN
+	1    5755 2740
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5695 2825 5695 2740
+Wire Wire Line
+	5695 2740 5755 2740
+Wire Wire Line
+	4085 4490 4085 4325
+Wire Wire Line
+	4085 4325 4150 4325
+Wire Wire Line
+	4150 4325 4150 4155
+Wire Wire Line
+	3850 4155 3300 4155
+Wire Wire Line
+	3300 4155 3300 2740
+Wire Wire Line
+	3300 2740 4375 2740
+Connection ~ 4375 2740
+Wire Wire Line
+	4375 2835 4680 2835
+Wire Wire Line
+	5395 2790 5395 2585
+Wire Wire Line
+	5395 2585 6165 2585
+Connection ~ 5395 2790
+Wire Wire Line
+	4675 2835 4835 2835
+Wire Wire Line
+	4835 2835 4835 1995
+Connection ~ 4675 2835
+$Comp
+L GND #PWR06
+U 1 1 620B91FC
+P 3885 4485
+F 0 "#PWR06" H 3885 4235 50  0001 C CNN
+F 1 "GND" H 3885 4335 50  0000 C CNN
+F 2 "" H 3885 4485 50  0001 C CNN
+F 3 "" H 3885 4485 50  0001 C CNN
+	1    3885 4485
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3885 4485 3985 4485
+Wire Wire Line
+	3985 4485 3985 4490
+NoConn ~ 6715 4085
+NoConn ~ 6915 4085
+NoConn ~ 7015 4085
+NoConn ~ 7115 4085
+NoConn ~ 7215 4085
+NoConn ~ 7315 4085
+NoConn ~ 7415 4085
+NoConn ~ 6165 3385
+NoConn ~ 6165 3285
+NoConn ~ 6165 3185
+NoConn ~ 6165 3085
+NoConn ~ 6165 2985
+NoConn ~ 6165 2785
+NoConn ~ 6165 2685
+NoConn ~ 7965 3385
+NoConn ~ 7965 3285
+NoConn ~ 7965 3185
+NoConn ~ 7965 3085
+NoConn ~ 7965 2985
+NoConn ~ 7965 2885
+NoConn ~ 7965 2785
+NoConn ~ 7965 2685
+$EndSCHEMATC
